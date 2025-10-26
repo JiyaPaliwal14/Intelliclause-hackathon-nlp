@@ -1,0 +1,17 @@
+sqlalchemy
+google-generativeai
+pydantic
+aiohttp
+pdfplumber
+qdrant-client
+psycopg2-binary
+asyncpg
+greenlet
+fastapi
+uvicorn
+python-dotenv
+streamlit
+requests
+python-multipart
+sentence-transformers
+numpy
