@@ -1,0 +1,504 @@
+{
+  "final_metrics": {
+    "accuracy": 0.8780487804878049,
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1_score": 0.5454545454545454,
+    "average_inference_time_seconds": 28.415574905348986
+  },
+  "detailed_results": [
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Document Name",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "true_answers": [
+        "SUPPLY CONTRACT"
+      ],
+      "predicted_answer": "Based on the contract text provided, the following parts related to \"Document Name\" that should be reviewed by a lawyer are:\n\n1. Clause 12.1: This clause specifies the documents that the seller must provide to the buyer, including an invoice, certificate of origin, packing list, certificate of quality and quantity, and insurance coverage. A lawyer should review this clause to ensure that the required documents are clearly specified and that the seller's obligations are properly defined.\n\n2. Clause 12.2: This clause specifies the documents that the seller must provide to the buyer in case of partial shipment, including an invoice and a final acceptance certificate. A lawyer should review this clause to ensure that the required documents are clearly specified and that the seller's obligations are properly defined.\n\n3. Clause 20: This clause states that the final price is confidential information and prohibits dissemination, distribution, or duplication of this price. A lawyer should review this clause to ensure that it is properly drafted and that it does not conflict with any applicable laws or regulations.\n\n4. Clause 21: This clause specifies the governing law of the contract, which is the law of the People's Republic of China or the United Nations Convention on Contract for the International Sale of Goods. A lawyer should review this clause to ensure that it is properly drafted and that it accurately reflects the parties' intentions.\n\n5. Clause 23: This clause specifies the duration of the contract, which is 5 years. A lawyer should review this clause to ensure that it is properly drafted and that it accurately reflects the parties' intentions.\n\nThese clauses should be reviewed by a lawyer to ensure that they are properly drafted and that they accurately reflect the parties' intentions.",
+      "is_impossible": false,
+      "time_taken": 0.9543819427490234,
+      "eval_outcome": "FN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Parties",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "true_answers": [
+        "The seller:",
+        "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd."
+      ],
+      "predicted_answer": "Based on the contract text provided, the following parts related to \"Parties\" that should be reviewed by a lawyer are:\n\n1. **Identification of Parties**: The contract identifies the two parties as:\n   - The Buyer: Shenzhen LOHAS Supply Chain Management Co., Ltd.\n   - The Seller: (Not explicitly stated in the contract, but mentioned as \"the seller\" in various clauses)\n\n   A lawyer should review the contract to ensure that the parties' names and addresses are correctly stated and that there are no ambiguities regarding the identity of the parties.\n\n2. **Authorized Representatives**: The contract mentions that any modification, supplementary, or cancellation should be in writing and signed by the authorized representatives of both parties (Clause 1.2). A lawyer should review this clause to ensure that it is clear and compliant with applicable laws.\n\n3. **Arbitration**: The contract specifies that any disputes will be settled through arbitration by the Foreign Economic and Trade Arbitration Committee of the China Beijing Council for the Promotion of International Trade (Clause 19). A lawyer should review this clause to ensure that it is compliant with applicable laws and that the arbitration process is fair and reasonable.\n\n4. **Law Application**: The contract specifies that it will be governed by the law of the People's Republic of China, unless otherwise specified (Clause 21). A lawyer should review this clause to ensure that it is compliant with applicable laws and that the choice of law is reasonable.\n\n5. **Signatures**: The contract requires both parties to sign the contract, and it is stated that the contract becomes effective after both parties have signed (Clause 23). A lawyer should review this clause to ensure that the signing process is properly documented and that the contract is enforceable.\n\n6. **Confidentiality**: The contract specifies that the final price is confidential information and that dissemination, distribution, or duplication of this price is strictly prohibited (Clause 20). A lawyer should review this clause to ensure that it is compliant with applicable laws and that the confidentiality agreement is reasonable.\n\n7. **Number of Copies**: The contract specifies that there will be one copy for the Seller and two copies for the Buyer (Clause 23). A lawyer should review this clause to ensure that it is clear and compliant with applicable laws.\n\n8. **Effective Date**: The contract specifies that it will be valid for 5 years, beginning from and ending on a specific date (Clause 23). A lawyer should review this clause to ensure that it",
+      "is_impossible": false,
+      "time_taken": 1.01078200340271,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Agreement Date",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I found the following parts related to \"Agreement Date\" that should be reviewed by a lawyer:\n\n1. Clause 1.1: This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred to as the \"order\").\n\n   - This clause implies that the agreement is effective from the date of signing, but it does not explicitly state the date of signing.\n\n2. Clause 23: The Contract is valid for 5 years, beginning from and ended on .\n\n   - This clause indicates that the contract's validity period starts from an unspecified date and ends on an unspecified date. The exact dates should be reviewed to ensure clarity and accuracy.\n\n3. Clause 23: This Contract is made out in three originals in both Chinese and English, each language being legally of the equal effect. Conflicts between these two languages arising there from, if any, shall be subject to Chinese version.\n\n   - Although this clause does not directly mention the agreement date, it implies that the contract was signed on a specific date, which should be reviewed to ensure that it aligns with the effective date mentioned in Clause 1.1.\n\n4. The contract text also mentions \"Date: The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd. ADD: Tel No. : Fax No. : The seller: ADD: The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong.\"\n\n   - This line explicitly states that the contract was signed on a specific date, which should be reviewed to ensure that it aligns with the effective date mentioned in Clause 1.1.\n\nA lawyer should review these parts to ensure that the agreement date is clear, accurate, and consistent throughout the contract.",
+      "is_impossible": true,
+      "time_taken": 32.05732607841492,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Effective Date",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text, the parts related to the \"Effective Date\" that should be reviewed by a lawyer are:\n\n1. Clause 1.2: \"The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong.\" - This clause indicates that the contract is effective from the date it was signed, but the actual date is not specified.\n\n2. Clause 23: \"The Contract is valid for 5 years, beginning from and ended on .\" - This clause indicates that the contract is effective for a period of 5 years, but the start and end dates are not specified.\n\n3. Clause 23: \"This Contract becomes effective after signed by both parties.\" - This clause indicates that the contract becomes effective once both parties have signed it, but it does not specify the exact date.\n\nTo clarify the effective date of the contract, a lawyer should review these clauses and consider the following:\n\n- The date of signing (if specified)\n- The start and end dates of the contract's validity period (if specified)\n- Any other provisions that may affect the contract's effective date\n\nIt is essential to note that the contract's effective date may be critical in determining the parties' rights and obligations, and a lawyer should carefully review these clauses to ensure that the contract's effective date is clear and unambiguous.",
+      "is_impossible": true,
+      "time_taken": 29.91778588294983,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Expiration Date",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "true_answers": [
+        "The Contract is valid for 5 years, beginning from and ended on ."
+      ],
+      "predicted_answer": "Based on the contract text, the contract's initial term is valid for 5 years, beginning from and ended on a date that is not specified. However, it is mentioned that \"This Contract is valid for 5 years, beginning from and ended on .\"\n\nTo determine the expiration date, we need to know the start date of the contract. Unfortunately, the contract text does not provide the start date. Therefore, I couldn't find the answer in the contract.\n\nHowever, it is recommended that a lawyer reviews the contract to determine the start date of the contract, which is likely to be the date of signing, and then calculate the expiration date based on the 5-year term.",
+      "is_impossible": false,
+      "time_taken": 28.655415058135986,
+      "eval_outcome": "FN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Renewal Term",
+      "question": "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 27.541465044021606,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Notice Period To Terminate Renewal",
+      "question": "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 26.527855157852173,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Governing Law",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "true_answers": [
+        "It will be governed by the law of the People's Republic of China ,otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods."
+      ],
+      "predicted_answer": "Based on the contract text, the parts related to \"Governing Law\" that should be reviewed by a lawyer are:\n\n* Clause 21: \"It will be governed by the law of the People's Republic of China, otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods.\"\n\nThis clause indicates that the contract will be governed by the law of the People's Republic of China, unless the United Nations Convention on Contract for the International Sale of Goods applies. This means that the contract will be subject to the laws of China, which may have implications for the interpretation and enforcement of the contract.\n\nAdditionally, the lawyer should review the following:\n\n* Clause 21 also mentions the United Nations Convention on Contract for the International Sale of Goods, which is an international treaty that governs the sale of goods between parties from different countries. This may have implications for the contract's interpretation and enforcement, particularly if the parties are from different countries.\n\nTherefore, a lawyer should review these clauses to understand the governing law and its implications for the contract.",
+      "is_impossible": false,
+      "time_taken": 26.718125104904175,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Most Favored Nation",
+      "question": "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find a specific clause related to \"Most Favored Nation\" that grants the buyer the right to better terms if a third party gets more favorable terms on the licensing or sale of technology/goods/services described in the contract.\n\nHowever, I would recommend reviewing the following clauses with a lawyer:\n\n- Clause 1.2: This clause states that if the provisions of the agreement are inconsistent with the order, the order shall prevail. This could potentially be interpreted as a \"most favored nation\" clause, but it's not explicitly stated.\n\n- Clause 2.2: This clause states that if the seller finds an order is not acceptable or needs to be modified, they should note the entrusted party within two working days. However, if the seller does not confirm or reject the order in time, they are deemed to have accepted it. This could potentially be seen as a clause that grants the buyer better terms if the seller fails to reject the order, but it's not explicitly stated.\n\n- Clause 19: This clause states that all disputes in connection with this Contract or the execution thereof shall be settled through friendly negotiations or arbitration. However, it does not explicitly address the issue of most favored nation clauses.\n\nIt's essential to note that the contract does not explicitly include a most favored nation clause, which is a specific provision that grants the buyer the right to better terms if a third party gets more favorable terms on the licensing or sale of technology/goods/services described in the contract.\n\nA lawyer should review the contract to determine if any of these clauses could be interpreted as a most favored nation clause or if any other provisions could be seen as granting the buyer better terms.",
+      "is_impossible": true,
+      "time_taken": 30.103920936584473,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Compete",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector? ",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any explicit provisions related to \"Non-Compete\" that restrict the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector.\n\nHowever, there are some provisions that may be related to non-compete or restrictive covenants, such as:\n\n* Clause 17 (Force Majeure) mentions that the Sellers shall not be held responsible for delay in shipment or non-delivery of goods due to Force Majeure, but it does not restrict the Sellers from competing with the Buyers.\n* Clause 18 (Late Delivery and Penalty) mentions that the Buyers shall agree to postpone the delivery on condition that the Sellers agree to pay a penalty, but it does not restrict the Sellers from competing with the Buyers.\n* Clause 19 (Arbitration) mentions that all disputes in connection with this Contract or the execution thereof shall be settled through arbitration, but it does not restrict the parties from competing with each other.\n\nIt is essential to note that the absence of explicit non-compete provisions does not necessarily mean that the parties are free to compete with each other. A lawyer should review the contract in its entirety to determine if any implied or implicit non-compete provisions exist.\n\nA lawyer should review the contract to determine if any of the following are present:\n\n* A non-solicitation clause that restricts the parties from soliciting each other's employees or customers.\n* A non-disclosure clause that restricts the parties from disclosing confidential information.\n* A non-compete clause that restricts the parties from competing with each other in a specific geography, business, or technology sector.\n* Any other provisions that may be related to restrictive covenants or non-compete.\n\nA lawyer should carefully review the contract to determine if any of these provisions exist and to provide guidance on their implications and enforceability.",
+      "is_impossible": true,
+      "time_taken": 30.00237202644348,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Exclusivity",
+      "question": "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, there are several parts related to \"Exclusivity\" that should be reviewed by a lawyer:\n\n1. Clause 2.1 states that \"During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\" or \"LEHEYUAN\"), to purchase the products specified in this agreement from the seller in the form of orders.\" This clause implies that the buyer has entrusted the seller to purchase products from them exclusively, but it does not explicitly state that the buyer will procure all their requirements from the seller.\n\n2. Clause 2.4 states that \"Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law.\" This clause suggests that the buyer has given the seller exclusive authority to deliver and receive payment for the products, but it does not explicitly state that the buyer will not procure products from other sellers.\n\n3. Clause 20 states that \"This final price is the confidential information. Dissemination, distribution or duplication of this price is strictly prohibited.\" This clause implies that the price of the products is confidential and exclusive to the buyer and seller, but it does not explicitly state that the buyer will not disclose the price to other parties.\n\nHowever, there is no explicit commitment to procure all requirements from the seller, prohibition on licensing or selling technology, goods, or services to third parties, or prohibition on collaborating or working with other parties.\n\nTherefore, a lawyer should review these clauses to determine the extent of the exclusivity commitment and ensure that it aligns with the buyer's and seller's intentions and business goals.",
+      "is_impossible": true,
+      "time_taken": 31.131619215011597,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__No-Solicit Of Customers",
+      "question": "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any explicit provisions related to \"No-Solicit Of Customers\" that restrict a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends.\n\nHowever, there are some provisions that may be relevant to consider:\n\n1. Clause 2.2 states that if the seller does not confirm an order in time or notice not accept orders or modifications, the seller is deemed to have accepted the order. This implies that the seller may be restricted from unilaterally canceling an order, but it does not explicitly address soliciting customers.\n2. Clause 19 (ARBITRATION) mentions that all disputes in connection with this Contract or the execution thereof shall be settled through negotiations or arbitration. This provision does not directly relate to soliciting customers, but it may be relevant in case of a dispute arising from such actions.\n3. Clause 21 (Law application) states that the contract will be governed by the law of the People's Republic of China or the United Nations Convention on Contract for the International Sale of Goods. This provision does not address soliciting customers, but it may be relevant in case of a dispute related to such actions.\n\nTo ensure that the contract is comprehensive and protects the interests of both parties, it is recommended that a lawyer reviews the contract and considers adding a provision related to \"No-Solicit Of Customers\" to clarify the rights and obligations of the parties.",
+      "is_impossible": true,
+      "time_taken": 29.903084754943848,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Competitive Restriction Exception",
+      "question": "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific sections related to \"Competitive Restriction Exception\" or carveouts to Non-Compete, Exclusivity, and No-Solicit of Customers. However, there are some clauses that may be relevant to competitive restrictions:\n\n1. Clause 19 (ARBITRATION) - This clause does not directly relate to competitive restrictions, but it may be relevant in case of disputes arising from any competitive restrictions that may be implied or inferred from other clauses.\n2. Clause 15 (GUARANTEE OF QUALITY) - This clause may imply that the seller guarantees the quality of the goods, which could be relevant in case of disputes related to the quality of the goods and potential competitive restrictions.\n3. Clause 17 (FORCE MAJEURE) - This clause may be relevant in case of disputes related to delays or non-delivery of goods due to force majeure events, which could be related to competitive restrictions.\n\nHowever, it's essential to note that these clauses are not directly related to competitive restrictions, and a lawyer should review the entire contract to identify any potential competitive restrictions or carveouts.\n\nTo ensure a comprehensive review, a lawyer should examine the following:\n\n* Clause 1.2 (General provisions) - This clause states that any modification, supplementary, or give-up should be in writing and signed by authorized representatives of both parties. This could imply that any changes to competitive restrictions should be in writing and signed by both parties.\n* Clause 2.3 (Specific order) - This clause states that the seller shall be liable for any damage and loss of the commodity, expenses incurred on account of improper packing, and any damage attributable to inadequate or improper protective measures taken by the seller in regard to the packing. This could imply that the seller has certain obligations related to the quality and safety of the goods, which could be relevant in case of competitive restrictions.\n* Clause 20 (Confidential information) - This clause states that the final price is confidential information and dissemination, distribution, or duplication of this price is strictly prohibited. This could imply that the parties have certain obligations related to confidentiality, which could be relevant in case of competitive restrictions.\n\nA lawyer should review the entire contract to identify any potential competitive restrictions or carveouts and provide guidance on how to navigate these clauses.",
+      "is_impossible": true,
+      "time_taken": 29.345774173736572,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__No-Solicit Of Employees",
+      "question": "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific clause related to \"No-Solicit Of Employees\" that restricts a party's soliciting or hiring employees and/or contractors from the counterparty, whether during the contract or after the contract ends (or both).\n\nHowever, I would recommend reviewing the following clauses with a lawyer to ensure that they do not implicitly restrict employee solicitation:\n\n1. Clause 2.2: This clause states that if the seller does not confirm an order in time, they are deemed to have accepted the order. A lawyer may want to review this clause to ensure that it does not inadvertently restrict the seller's ability to solicit employees from the buyer.\n2. Clause 17: This clause deals with Force Majeure and states that the seller shall not be held responsible for delays or non-delivery due to Force Majeure. A lawyer may want to review this clause to ensure that it does not implicitly restrict the seller's ability to solicit employees from the buyer in the event of a Force Majeure.\n3. Clause 19: This clause deals with arbitration and states that all disputes shall be settled through friendly negotiations or arbitration. A lawyer may want to review this clause to ensure that it does not implicitly restrict the parties' ability to solicit employees from each other during or after the contract.\n\nIt's essential to note that these clauses may not explicitly address employee solicitation, but a lawyer may want to review them to ensure that they do not inadvertently restrict the parties' ability to solicit employees from each other.",
+      "is_impossible": true,
+      "time_taken": 30.966480016708374,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Disparagement",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any explicit mention of \"Non-Disparagement\" clauses that require a party not to disparage the counterparty. However, there are some provisions that may be related to maintaining a positive relationship between the parties.\n\nOne such provision is in Clause 19, \"ARBITRATION,\" which states that \"All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations.\" This suggests that the parties should attempt to resolve disputes amicably, which may imply a level of cooperation and respect between them.\n\nAnother provision that may be relevant is in Clause 20, \"This final price is the confidential information. Dissemination, distribution or duplication of this price is strictly prohibited.\" While this clause is primarily concerned with confidentiality, it may also imply that the parties should not engage in any behavior that could be seen as disparaging or detrimental to each other's reputation.\n\nHowever, it's essential to note that these provisions are not explicitly related to non-disparagement, and a lawyer should review the contract to determine whether any additional clauses or implied obligations may be relevant.\n\nIf you'd like to review the contract further, I recommend consulting with a lawyer who can provide a more detailed analysis and ensure that the contract complies with relevant laws and regulations.",
+      "is_impossible": true,
+      "time_taken": 29.800837755203247,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Termination For Convenience",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific provisions related to \"Termination For Convenience\" that would allow a party to terminate the contract without cause by giving a notice and allowing a waiting period to expire.\n\nHowever, there are some provisions that may be relevant to termination:\n\n1. Clause 18: \"LATE DELIVERY AND PENALTY\" - This clause provides for a penalty to be paid by the seller if they fail to make delivery on time, but it does not provide for termination of the contract.\n2. Clause 17: \"FORCE MAJEURE\" - This clause provides for termination of the contract in the event of force majeure, but it requires the seller to advise the buyer immediately and provide a certificate of the accident within 14 days.\n3. Clause 19: \"ARBITRATION\" - This clause provides for arbitration in the event of disputes, but it does not provide for termination of the contract.\n\nTo determine whether a party can terminate the contract without cause, a lawyer should review the contract in its entirety and consider the following:\n\n* Whether there are any provisions that allow for termination without cause, such as a \"termination for convenience\" clause.\n* Whether the contract provides for any circumstances under which termination is permitted, such as force majeure or material breach.\n* Whether the contract provides for any notice or waiting period requirements before termination can occur.\n\nA lawyer should carefully review the contract and provide guidance on the specific circumstances under which termination may be permitted.",
+      "is_impossible": true,
+      "time_taken": 28.97818112373352,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Rofr/Rofo/Rofn",
+      "question": "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any clauses related to \"Rofr/Rofo/Rofn\" that grant one party a right of first refusal, right of first offer, or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products, or services.\n\nHowever, I would recommend reviewing the following clauses with a lawyer:\n\n1. Clause 17 (Force Majeure): This clause may need to be reviewed to ensure that it is comprehensive and covers all potential force majeure events. A lawyer can help determine if the clause is sufficient to protect both parties in the event of unforeseen circumstances.\n2. Clause 18 (Late Delivery and Penalty): This clause outlines the penalty for late delivery, which may need to be reviewed to ensure that it is reasonable and compliant with applicable laws. A lawyer can help determine if the penalty is enforceable and if it complies with relevant regulations.\n3. Clause 19 (Arbitration): This clause outlines the arbitration process, which may need to be reviewed to ensure that it is fair and compliant with applicable laws. A lawyer can help determine if the arbitration process is sufficient to resolve disputes between the parties.\n4. Clause 21 (Law Application): This clause outlines the governing law, which may need to be reviewed to ensure that it is applicable and compliant with relevant laws. A lawyer can help determine if the governing law is sufficient to govern the contract and if it complies with relevant regulations.\n5. Clause 23 (Contract Validity): This clause outlines the contract's validity period, which may need to be reviewed to ensure that it is reasonable and compliant with applicable laws. A lawyer can help determine if the contract's validity period is sufficient to govern the parties' obligations and if it complies with relevant regulations.\n\nThese clauses may require review by a lawyer to ensure that they are comprehensive, compliant with applicable laws, and sufficient to protect the interests of both parties.",
+      "is_impossible": true,
+      "time_taken": 30.115939140319824,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Change Of Control",
+      "question": "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific provisions related to \"Change Of Control\" that outline the rights and obligations of the parties in the event of a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law.\n\nHowever, I would recommend reviewing the following clauses with a lawyer:\n\n1. Clause 19 (ARBITRATION): This clause outlines the dispute resolution mechanism, but it does not specifically address the issue of change of control. A lawyer may want to review this clause to ensure that it does not inadvertently affect the rights and obligations of the parties in the event of a change of control.\n2. Clause 21 (Law application): This clause states that the contract will be governed by the law of the People's Republic of China or the United Nations Convention on Contract for the International Sale of Goods. A lawyer may want to review this clause to ensure that it does not conflict with any applicable laws or regulations related to change of control.\n3. Clause 23 (Contract validity): This clause states that the contract is valid for 5 years, but it does not specifically address the issue of change of control. A lawyer may want to review this clause to ensure that it does not inadvertently affect the rights and obligations of the parties in the event of a change of control.\n\nIn general, it is recommended that a lawyer review the contract to ensure that it includes provisions related to change of control, such as:\n\n* A definition of \"change of control\" and the circumstances that trigger it\n* The rights and obligations of the parties in the event of a change of control, including any notice or consent requirements\n* Any conditions or restrictions on the transfer of ownership or control of the parties\n* Any provisions related to the assignment of rights and obligations under the contract\n\nWithout specific provisions related to change of control, the contract may be subject to interpretation and potential disputes in the event of a change of control.",
+      "is_impossible": true,
+      "time_taken": 31.016311168670654,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Anti-Assignment",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I found the following parts related to \"Anti-Assignment\" that should be reviewed by a lawyer:\n\n1. Clause 1.2 states: \"Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized representative signature and confirmation, otherwise will be deemed invalid.\" This clause implies that any changes or assignments to the contract require written records and the signature of authorized representatives from both parties.\n\n2. Clause 2.2 states: \"If the seller finds order is not acceptable or need to modify, should note entrusted party in two working days after receipt of the order...\" This clause suggests that the seller needs to notify the entrusted party (YICHANGTAI or LEHEYUAN) if they find an order unacceptable or need to modify it. However, it does not explicitly state whether consent or notice is required from the buyer if the contract is assigned to a third party.\n\n3. Clause 2.3 states: \"If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party accept the modified by written consent, the modified orders to be taken effect.\" This clause implies that the seller needs to provide written notice to the entrusted party if they intend to make amendments or reject orders. However, it does not explicitly state whether consent or notice is required from the buyer if the contract is assigned to a third party.\n\n4. Clause 2.4 states: \"Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law.\" This clause suggests that the buyer has entrusted the entrusted party to issue orders, and the product delivery and payment are governed by the laws of the entrusted party. However, it does not explicitly state whether consent or notice is required from the buyer if the contract is assigned to a third party.\n\nTo determine whether consent or notice is required from the buyer if the contract is assigned to a third party, a lawyer should review the contract in its entirety and consider the following:\n\n* Is the contract an assignment of rights, or is it a novation, where the third party assumes the obligations of the original party?\n* Does the contract contain any provisions that restrict or prohibit assignment, such as anti-assignment clauses?\n* Are there any provisions that require consent or notice from the buyer if the contract is assigned to a third party?\n\nA lawyer should carefully review",
+      "is_impossible": true,
+      "time_taken": 31.236674785614014,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Revenue/Profit Sharing",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific provisions related to \"Revenue/Profit Sharing\" that would require one party to share revenue or profit with the counterparty for any technology, goods, or services.\n\nHowever, there are some provisions that may be related to revenue or profit, such as:\n\n* Clause 11 (PAYMENT) mentions that the buyer shall pay 80% of the system value being shipped against documents stipulated in Clause 12.1, and the remaining 20% against documents stipulated in Clause 12.2. This may imply that the seller is entitled to receive a certain percentage of the revenue from the sale of the goods.\n* Clause 15 (GUARANTEE OF QUALITY) mentions that the seller guarantees that the commodity complies with the quality and specification stipulated in the contract. This may imply that the seller is responsible for ensuring that the goods meet certain quality standards, which could impact the revenue or profit of the buyer.\n* Clause 18 (LATE DELIVERY AND PENALTY) mentions that the seller shall pay a penalty if they fail to make delivery on time, which could impact the revenue or profit of the buyer.\n\nThese provisions may be related to revenue or profit, but they do not explicitly require one party to share revenue or profit with the counterparty.\n\nTherefore, a lawyer should review these provisions to ensure that they are clear and do not create any unintended obligations or liabilities for either party.",
+      "is_impossible": true,
+      "time_taken": 30.9237539768219,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Price Restrictions",
+      "question": "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, there are several parts related to \"Price Restrictions\" that should be reviewed by a lawyer:\n\n1. **Confidentiality of Final Price (Clause 20)**: The contract states that the final price is confidential information and its dissemination, distribution, or duplication is strictly prohibited. This clause may be subject to review by a lawyer to ensure it complies with applicable laws and regulations.\n\n2. **Payment Terms (Clause 11)**: The contract outlines payment terms, including the use of a letter of credit or telegraphic transfer (T/T). However, it does not explicitly restrict the ability of a party to raise or reduce prices. Nevertheless, a lawyer may review these payment terms to ensure they are fair and reasonable.\n\n3. **Penalty for Late Delivery (Clause 18)**: The contract imposes a penalty on the seller for late delivery, which is deducted from the payment. While this clause does not directly restrict price changes, a lawyer may review it to ensure it is enforceable and does not create any unintended consequences.\n\n4. **Arbitration Clause (Clause 19)**: The contract includes an arbitration clause, which may be relevant in case of disputes related to price restrictions or other contract terms. A lawyer may review this clause to ensure it is fair and complies with applicable laws.\n\nIn terms of restrictions on the ability of a party to raise or reduce prices, the contract does not explicitly impose any restrictions. However, a lawyer may review the contract to ensure that any price changes are made in accordance with applicable laws and regulations, and that the contract terms are fair and reasonable.\n\nTo summarize, the following parts of the contract related to \"Price Restrictions\" should be reviewed by a lawyer:\n\n* Confidentiality of final price (Clause 20)\n* Payment terms (Clause 11)\n* Penalty for late delivery (Clause 18)\n* Arbitration clause (Clause 19)\n\nA lawyer may also review the contract to ensure that any price changes are made in accordance with applicable laws and regulations, and that the contract terms are fair and reasonable.",
+      "is_impossible": true,
+      "time_taken": 30.651367902755737,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Minimum Commitment",
+      "question": "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific mention of a \"Minimum Commitment\" that outlines a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty.\n\nHowever, there are some provisions that may be related to the concept of minimum commitment:\n\n1. Clause 2.2 states that if the seller does not confirm or reject an order within three working days, the order is deemed to be accepted. This implies that the seller is committed to fulfilling the order, but it does not specify a minimum order size or quantity.\n2. Clause 4 states that the products quantity, unit price, specifications, delivery time, and transportation will be specified in the purchase order issued by the entrusted party. This suggests that the buyer has some flexibility in placing orders, but it does not establish a minimum order size or quantity.\n3. Clause 11 (Payment) mentions that the buyer shall open an irrevocable letter of credit for 100% value of the total contract value. This implies that the buyer is committed to paying for the goods, but it does not specify a minimum order size or quantity.\n\nTo clarify the minimum commitment requirements, it would be best to review the contract with a lawyer to ensure that all parties understand their obligations and responsibilities.\n\nAdditionally, it would be beneficial to review the contract's annexes, appendices, or other supporting documents to see if there are any additional provisions that may relate to minimum commitment.\n\nIt's also worth noting that the contract's language and structure may imply certain minimum commitment requirements, even if they are not explicitly stated. A lawyer can help to interpret the contract and provide guidance on how to navigate any potential minimum commitment requirements.",
+      "is_impossible": true,
+      "time_taken": 30.39462399482727,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Volume Restriction",
+      "question": "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific sections related to \"Volume Restriction\" that outline a fee increase or consent requirement if one party's use of the product/services exceeds a certain threshold.\n\nHowever, there are some sections that may be relevant to review by a lawyer in the context of volume restrictions:\n\n1. Clause 11 (PAYMENT) mentions that the buyer's agent agrees to pay for the goods in accordance with the actual amount of the goods shipped. This implies that the payment is based on the quantity of goods delivered, but it does not specify any volume restrictions or penalties for exceeding a certain threshold.\n2. Clause 18 (LATE DELIVERY AND PENALTY) mentions that if the seller fails to make delivery on time, the buyer may agree to postpone the delivery on condition that the seller agrees to pay a penalty. However, this penalty is capped at 5% of the total value of the goods involved in the late delivery, and it does not seem to be related to volume restrictions.\n3. Clause 17 (FORCE MAJEURE) mentions that if the seller is unable to deliver the goods due to force majeure, the buyer may have the right to cancel the contract. However, this clause does not specify any volume restrictions or penalties for exceeding a certain threshold.\n\nTo determine if there are any volume restrictions or penalties in the contract, a lawyer may need to review the contract in its entirety and consider the context in which the contract was negotiated and executed.",
+      "is_impossible": true,
+      "time_taken": 28.975261211395264,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Ip Ownership Assignment",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific sections related to \"Intellectual Property Ownership Assignment\" that explicitly state the ownership of intellectual property created by one party becomes the property of the counterparty. However, there are some clauses that may be relevant to intellectual property:\n\n1. Clause 15: \"GUARANTEE OF QUALITY\" - This clause states that the Sellers guarantee that the commodity complies with the quality and specification stipulated in the Contract. While this clause does not explicitly address intellectual property, it may imply that the Sellers are responsible for ensuring that the goods meet certain standards, which could include intellectual property rights.\n\n2. Clause 17: \"FORCE MAJEURE\" - This clause mentions that the Sellers shall not be held responsible for delays or non-delivery of goods due to Force Majeure, which might occur during the process of manufacturing or in the course of loading or transit. This clause may be relevant to intellectual property if the Force Majeure event affects the creation or ownership of intellectual property.\n\n3. Clause 21: \"Law application\" - This clause states that the Contract will be governed by the law of the People's Republic of China, unless otherwise specified. Intellectual property laws in China may be relevant to the ownership and protection of intellectual property created under this Contract.\n\n4. Clause 22: \"Incoterms 2000\" - This clause references the INCOTERMS 2000 of the International Chamber of Commerce, which may provide additional guidance on intellectual property rights and ownership.\n\nTo review the contract related to \"Intellectual Property Ownership Assignment,\" a lawyer should carefully examine the following:\n\n- The absence of explicit clauses addressing intellectual property ownership\n- The implications of Clause 15 on the Sellers' responsibility for ensuring the quality and specification of the goods\n- The potential impact of Clause 17 on intellectual property creation and ownership\n- The relevance of Clause 21 and Clause 22 to intellectual property laws and regulations in China\n\nA lawyer should review the contract in its entirety and consider the specific circumstances of the parties involved to provide a comprehensive analysis of the intellectual property ownership assignment.",
+      "is_impossible": true,
+      "time_taken": 30.21277904510498,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Joint Ip Ownership",
+      "question": "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find any clause in the contract related to \"Joint IP Ownership\" that provides for shared ownership of intellectual property between the parties to the contract. However, there is a clause (Clause 15) that mentions \"GUARANTEE OF QUALITY\" which states that the Sellers guarantee that the commodity complies in all respects with the quality and specification stipulated in this Contract. This clause may imply that the Sellers are responsible for the quality of the goods, but it does not address joint or shared ownership of intellectual property.\n\nIt's worth noting that the contract does not contain any clauses that explicitly address intellectual property rights, such as patents, trademarks, copyrights, or trade secrets. Therefore, it is recommended that a lawyer reviews the contract to determine the parties' rights and obligations regarding intellectual property.\n\nAdditionally, the contract does not contain any clauses that provide for joint or shared ownership of intellectual property, such as joint patents, trademarks, or copyrights. If joint IP ownership is desired, it is recommended that a lawyer drafts an amendment to the contract to include such provisions.\n\nIn summary, while the contract does not explicitly address joint IP ownership, it is recommended that a lawyer reviews the contract to determine the parties' rights and obligations regarding intellectual property and drafts any necessary amendments to address joint IP ownership.",
+      "is_impossible": true,
+      "time_taken": 30.922436237335205,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__License Grant",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any explicit \"License Grant\" clause that grants a license from one party to the other. However, there are some provisions that may be related to intellectual property or usage rights, which could be considered as a form of license.\n\nFor example, in Clause 15, \"GUARANTEE OF QUALITY,\" the seller guarantees that the commodity complies with the quality and specification stipulated in the contract. This could imply that the seller has the right to use certain intellectual property or trade secrets to ensure the quality of the goods.\n\nAdditionally, in Clause 20, \"This final price is the confidential information,\" it is stated that the dissemination, distribution, or duplication of the price is strictly prohibited. This could be interpreted as a confidentiality agreement, which may imply that the seller has certain rights to protect their confidential information.\n\nHowever, these provisions are not explicitly stated as a \"License Grant\" and may not be sufficient to constitute a license agreement. Therefore, it is recommended that a lawyer reviews these provisions to determine their implications and ensure that they are consistent with the parties' intentions.\n\nIf you would like me to highlight any specific clauses related to intellectual property or usage rights, I can do so:\n\n* Clause 15: GUARANTEE OF QUALITY\n* Clause 20: This final price is the confidential information",
+      "is_impossible": true,
+      "time_taken": 28.959512948989868,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Transferable License",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find any parts of this contract related to a \"Non-Transferable License\" that should be reviewed by a lawyer. The contract does not mention a license being granted to either party, nor does it discuss the transferability of any rights or obligations.",
+      "is_impossible": true,
+      "time_taken": 28.541965007781982,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Affiliate License-Licensor",
+      "question": "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor? ",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any parts related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. The contract primarily focuses on the terms and conditions of a supply contract between the buyer (Shenzhen LOHAS Supply Chain Management Co., Ltd.) and the seller, including the purchase of goods, payment terms, shipping, and dispute resolution.\n\nHowever, there is a mention of \"entrusted party\" in clause 2.1, which refers to SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD. This could potentially imply a relationship between the seller and these entrusted parties, but it does not explicitly mention a license grant or intellectual property rights.\n\nTo determine if the contract contains a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor, a lawyer would need to review the contract in its entirety and consider the context in which the entrusted parties are mentioned.",
+      "is_impossible": true,
+      "time_taken": 27.798691034317017,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Affiliate License-Licensee",
+      "question": "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any specific sections related to \"Affiliate License-Licensee\" that would require review by a lawyer. However, there are a few sections that may be relevant to a lawyer's review:\n\n1. Section 2.1: This section mentions that the buyer entrusts SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\" or \"LEHEYUAN\") to purchase products from the seller. This section may be relevant to a lawyer's review if it involves any licensing or sublicensing agreements between the buyer and the entrusted party.\n\n2. Section 12.1 and 12.2: These sections outline the documents that the seller must provide to the buyer, including certificates of origin and quality. While these sections do not specifically mention licensing or sublicensing, they may be relevant to a lawyer's review if they involve any intellectual property rights or trade secrets.\n\n3. Section 15: This section mentions that the seller guarantees that the commodity complies with the quality and specification stipulated in the contract. This section may be relevant to a lawyer's review if it involves any warranties or representations related to intellectual property rights.\n\n4. Section 19: This section outlines the arbitration process for disputes related to the contract. While this section does not specifically mention licensing or sublicensing, it may be relevant to a lawyer's review if it involves any disputes related to intellectual property rights.\n\nTo determine whether the contract contains a license grant to a licensee (including sublicensor) and the affiliates of such licensee/sublicensor, a lawyer would need to review the contract in its entirety and consider the following:\n\n* Does the contract grant a license to the buyer or any of its affiliates to use the seller's intellectual property?\n* Does the contract permit the buyer or any of its affiliates to sublicense the seller's intellectual property to third parties?\n* Are there any restrictions on the buyer's or its affiliates' use of the seller's intellectual property?\n* Are there any obligations on the buyer's or its affiliates' part to protect the seller's intellectual property?\n\nBased on the contract text provided, it appears that the contract does not contain a specific license grant to a licensee (including sublicensor) and the affiliates of such licensee/sublicensor. However, a lawyer would",
+      "is_impossible": true,
+      "time_taken": 29.176378965377808,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Unlimited/All-You-Can-Eat-License",
+      "question": "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any parts related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. There is no clause granting one party an \"enterprise,\" \"all you can eat,\" or unlimited usage license.\n\nHowever, I would recommend reviewing the contract's payment terms, specifically Clause 11, which mentions payment under Letter of Credit or T/T. The contract also has a clause on claims (Clause 16) and a clause on late delivery and penalty (Clause 18), which may be relevant to review by a lawyer.\n\nAdditionally, the contract has a clause on arbitration (Clause 19), which may be relevant to review by a lawyer, especially if the parties are not familiar with the arbitration process or the specific arbitration committee mentioned in the contract.\n\nIt's also worth noting that the contract has a clause on confidentiality (Clause 20), which may be relevant to review by a lawyer, especially if the parties are dealing with sensitive or proprietary information.\n\nOverall, while there is no specific clause related to \"Unlimited/All-You-Can-Eat-License,\" there are other clauses in the contract that may require review by a lawyer to ensure the parties' rights and obligations are properly understood and protected.",
+      "is_impossible": true,
+      "time_taken": 30.929152965545654,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Irrevocable Or Perpetual License",
+      "question": "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any parts related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. The contract does not contain a license grant that is irrevocable or perpetual.\n\nHowever, there are some provisions related to intellectual property rights, such as the guarantee of quality (Clause 15) and the arbitration clause (Clause 19), which may require review by a lawyer to ensure that they do not inadvertently create any irrevocable or perpetual licenses.\n\nAdditionally, the contract's confidentiality provision (Clause 20) may also be relevant to review by a lawyer to ensure that it does not inadvertently create any irrevocable or perpetual obligations related to confidentiality.\n\nIt's worth noting that the contract does not contain any explicit language related to irrevocable or perpetual licenses, and it appears to be a standard supply contract. If you are concerned about the potential for irrevocable or perpetual licenses, it would be best to consult with a lawyer who can review the contract in its entirety and provide guidance on any potential issues.",
+      "is_impossible": true,
+      "time_taken": 28.976717710494995,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Source Code Escrow",
+      "question": "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find any parts of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. The contract appears to be a standard supply contract for the sale of goods, and it does not mention source code or escrow agreements.",
+      "is_impossible": true,
+      "time_taken": 28.571624040603638,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Post-Termination Services",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, the following parts related to \"Post-Termination Services\" should be reviewed by a lawyer:\n\n1. **Clause 18: Late Delivery and Penalty** - This clause outlines the consequences of late delivery, including the payment of a penalty, which may be deducted by the paying bank from the payment. Although not directly related to post-termination services, it implies that the seller may still be liable for certain obligations even after the contract has expired or been terminated.\n\n2. **Clause 17: Force Majeure** - This clause provides that in the event of force majeure, the seller is not responsible for delays or non-delivery of goods. However, it also states that the seller must take all necessary measures to hasten the delivery of goods. This implies that the seller may still be obligated to perform certain actions even after the contract has expired or been terminated.\n\n3. **Clause 16: Claims** - This clause outlines the process for making claims for defects or non-conformity with the contract. Although not directly related to post-termination services, it implies that the buyer may still be able to make claims against the seller even after the contract has expired or been terminated.\n\n4. **Clause 19: Arbitration** - This clause outlines the process for resolving disputes arising from the contract. Although not directly related to post-termination services, it implies that disputes may still arise even after the contract has expired or been terminated.\n\n5. **Clause 23: Contract Validity** - This clause states that the contract is valid for 5 years, beginning from and ending on a specific date. Although not directly related to post-termination services, it implies that the contract may still be in effect for a certain period after its initial expiration or termination.\n\nIn terms of specific post-termination obligations, the contract does not explicitly outline any commitments related to:\n\n* Post-termination transition services\n* Payment obligations after termination\n* Transfer of intellectual property (IP) after termination\n* Wind-down procedures\n* Last-buy commitments\n\nHowever, the contract does imply that the seller may still be liable for certain obligations even after the contract has expired or been terminated, such as payment of penalties or taking measures to hasten delivery in the event of force majeure. A lawyer should review these clauses to ensure that the parties' obligations are clearly defined and understood.",
+      "is_impossible": true,
+      "time_taken": 28.288097143173218,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Audit Rights",
+      "question": "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any explicit mention of \"Audit Rights\" that would grant a party the right to audit the books, records, or physical locations of the counterparty to ensure compliance with the contract.\n\nHowever, there are a few clauses that may be related to audit rights or compliance verification:\n\n1. Clause 16 (CLAIMS): This clause mentions that the Buyers have the right to claim for replacement with new goods or for compensation if the quality, specification, or quantity of the goods do not conform to the stipulations of the Contract. The Buyers can use an Inspection Certificate issued by the China Commodity Inspection Bureau as the basis for their claim. This clause may imply that the Buyers have some level of access to inspect the goods, but it does not explicitly grant audit rights.\n\n2. Clause 17 (FORCE MAJEURE): This clause mentions that the Sellers shall advise the Buyers immediately of the occurrence of Force Majeure and provide a certificate of the accident issued by the competent government authorities. This clause may imply that the Buyers have some level of access to verify the occurrence of Force Majeure, but it does not explicitly grant audit rights.\n\n3. Clause 21 (Law application): This clause states that the Contract will be governed by the law of the People's Republic of China or the United Nations Convention on Contract for the International Sale of Goods. This clause may imply that the parties are subject to certain laws and regulations, but it does not explicitly grant audit rights.\n\nTo determine the extent of audit rights, if any, a lawyer should review the contract in its entirety and consider the following:\n\n* Are there any other clauses that may imply audit rights or compliance verification?\n* Are there any specific provisions that grant the Buyers or Sellers access to inspect or audit the counterparty's books, records, or physical locations?\n* Are there any industry-specific regulations or laws that may require audit rights or compliance verification?\n\nA lawyer should carefully review the contract and consider these factors to determine the extent of audit rights, if any, that are granted to the parties.",
+      "is_impossible": true,
+      "time_taken": 31.832573890686035,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Uncapped Liability",
+      "question": "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I found the following parts related to \"Uncapped Liability\" that should be reviewed by a lawyer:\n\n1. Clause 16: Claims - This clause outlines the process for making claims in case of non-conformity with the contract specifications. It states that the buyers have the right to claim for replacement with new goods or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers. This implies that the seller's liability for damages or losses may be uncapped, as the clause does not specify a maximum limit.\n\n2. Clause 18: Late Delivery and Penalty - This clause outlines the penalty for late delivery, which is 5% of the total value of the goods involved in the late delivery. However, the rate of penalty is charged at 0.5% for every seven days, which implies that the penalty can accumulate over time. This could potentially lead to uncapped liability for the seller in case of repeated late deliveries.\n\n3. Clause 17: Force Majeure - This clause states that the seller shall not be held responsible for delay in shipment or non-delivery due to Force Majeure. However, it also states that the seller shall take all necessary measures to hasten the delivery of the goods. If the seller fails to do so, it may lead to uncapped liability for damages or losses incurred by the buyer.\n\n4. Clause 19: Arbitration - This clause states that the arbitration shall take place in Beijing and the decision of the Arbitration Committee shall be final and binding upon both parties. However, it does not specify any limits on the damages or losses that can be awarded to the buyer in case of a breach by the seller.\n\nA lawyer should review these clauses to determine the extent of the seller's uncapped liability and to ensure that the contract is fair and reasonable for both parties.",
+      "is_impossible": true,
+      "time_taken": 30.204707145690918,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Cap On Liability",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, the following parts related to \"Cap On Liability\" should be reviewed by a lawyer:\n\n1. **Clause 18: Late Delivery and Penalty**: This clause specifies a penalty for late delivery, which is deducted by the paying bank from the payment. The penalty is capped at 5% of the total value of the goods involved in the late delivery. The rate of penalty is charged at 0.5% for every seven days, with odd days less than seven days counted as seven days. This clause may be considered a cap on liability for late delivery.\n\n2. **Clause 16: Claims**: This clause specifies that the buyers have the right to claim for replacement with new goods or for compensation within 7 days after the arrival of the goods at destination. However, it does not specify a maximum amount for recovery. Nevertheless, it is essential to review this clause to determine if there are any limitations on the buyers' ability to bring claims or recover damages.\n\n3. **Clause 17: Force Majeure**: This clause specifies that the sellers shall not be held responsible for delay in shipment or non-delivery due to Force Majeure. However, it does not specify a cap on liability for Force Majeure events. Nevertheless, it is essential to review this clause to determine if there are any limitations on the sellers' liability for Force Majeure events.\n\n4. **Clause 19: Arbitration**: This clause specifies that arbitration fees shall be borne by the losing party. This may be considered a cap on liability for arbitration costs.\n\n5. **Clause 21: Law Application**: This clause specifies that the contract shall be governed by the law of the People's Republic of China or the United Nations Convention on Contract for the International Sale of Goods. This clause may be relevant to determining the applicable law and jurisdiction for disputes arising under the contract.\n\nIn summary, the contract includes several clauses that may be relevant to a cap on liability, including late delivery penalties, claims, Force Majeure events, arbitration costs, and law application. A lawyer should review these clauses to determine the specific terms and conditions of the contract and to ensure that they are consistent with the parties' intentions and applicable laws.",
+      "is_impossible": true,
+      "time_taken": 31.493959188461304,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Liquidated Damages",
+      "question": "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, the following parts related to \"Liquidated Damages\" should be reviewed by a lawyer:\n\n1. Clause 18: \"LATE DELIVERY AND PENALTY\" - This clause outlines a penalty for late delivery, which is calculated at 0.5% for every seven days, with a maximum of 5% of the total value of the goods involved in the late delivery. This could be considered a form of liquidated damages, but it's essential to review the specifics to ensure it complies with applicable laws and regulations.\n\n2. Clause 18 also mentions that if the Sellers fail to make delivery ten weeks later than the time of shipment stipulated in the Contract, the Buyers have the right to cancel the contract and the Sellers, in spite of the cancellation, shall still pay the aforesaid penalty to the Buyers without delay, the seller should refund the money received and pay the 30% of the total goods price of the penalty. This additional penalty could be considered a form of liquidated damages.\n\nIt's crucial to review these clauses with a lawyer to ensure they comply with applicable laws and regulations, as well as to determine if they are enforceable in a court of law.\n\nAdditionally, the contract does not explicitly mention a termination fee, but it does mention a penalty for late delivery and a penalty for failure to deliver goods within a certain timeframe. A lawyer should review these clauses to determine if they constitute a termination fee or liquidated damages.\n\nIn general, liquidated damages clauses should be carefully reviewed to ensure they are reasonable, not a penalty in disguise, and comply with applicable laws and regulations. A lawyer can help determine if these clauses are enforceable and if they comply with the requirements for liquidated damages.",
+      "is_impossible": true,
+      "time_taken": 31.266629934310913,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Warranty Duration",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "true_answers": [
+        "Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers."
+      ],
+      "predicted_answer": "Based on the contract text provided, I found the following parts related to \"Warranty Duration\" that should be reviewed by a lawyer:\n\n1. Clause 15: GUARANTEE OF QUALITY - The Sellers guarantee that the commodity hereof is complies in all respects with the quality and specification stipulated in this Contract. However, this clause does not specify the duration of the warranty.\n\n2. Clause 16: CLAIMS - Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract... The Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation... This clause implies that the warranty period is 7 days after the arrival of the goods at destination.\n\n3. Clause 17: FORCE MAJEURE - The Sellers shall not be held responsible for the delay in shipment or non-delivery, of the goods due to Force Majeure... However, this clause does not directly relate to warranty duration.\n\n4. Clause 18: LATE DELIVERY AND PENALTY - Should the Sellers fail to make delivery on time as stipulated in the Contract, with exception of Force Majeure causes specified in Clause 17 of this Contract... The Buyers shall agree to postpone the delivery on condition that the Sellers agree to pay a penalty... This clause does not specify warranty duration.\n\nBased on the above analysis, it appears that the warranty duration is not explicitly stated in the contract. However, Clause 16 implies a warranty period of 7 days after the arrival of the goods at destination. A lawyer should review these clauses to determine the intended warranty duration and ensure that it is clearly stated in the contract.",
+      "is_impossible": false,
+      "time_taken": 29.11946177482605,
+      "eval_outcome": "FN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Insurance",
+      "question": "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty?",
+      "true_answers": [
+        "To be covered by the Seller for 110% invoice value against All Risks and War Risk."
+      ],
+      "predicted_answer": "Based on the contract text, the following parts related to \"Insurance\" should be reviewed by a lawyer:\n\n1. Clause 10: \"To be covered by the Seller for 110% invoice value against All Risks and War Risk.\" This clause requires the seller to maintain insurance for the benefit of the buyer, covering 110% of the invoice value against all risks and war risks.\n\n2. Clause 16: This clause mentions that the buyers have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as insurance premium) shall be borne by the Sellers. However, this clause is more related to the claims process rather than the insurance requirement.\n\n3. Clause 17: This clause mentions that the Sellers shall not be held responsible for the delay in shipment or non-delivery, of the goods due to Force Majeure, which might occur during the process of manufacturing or in the course of loading or transit. However, this clause is more related to the Force Majeure provision rather than the insurance requirement.\n\n4. Clause 12.1(5): This clause requires the seller to provide a copy of insurance coverage to the buyer.\n\nA lawyer should review these clauses to ensure that the insurance requirements are clear, reasonable, and compliant with applicable laws and regulations. The lawyer should also review the contract to ensure that the insurance requirements are properly documented and that the parties understand their respective obligations and responsibilities.",
+      "is_impossible": false,
+      "time_taken": 30.24297595024109,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Covenant Not To Sue",
+      "question": "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, I couldn't find any explicit provisions related to a \"Covenant Not To Sue.\" However, there are some clauses that may be relevant to the question:\n\n1. **Arbitration Clause (Clause 19)**: This clause states that all disputes related to the contract or its execution shall be settled through arbitration. While this clause does not explicitly restrict a party from contesting the validity of the counterparty's ownership of intellectual property or bringing a claim against the counterparty for matters unrelated to the contract, it does provide a mechanism for resolving disputes.\n\n2. **Force Majeure Clause (Clause 17)**: This clause provides that the seller shall not be held responsible for delays or non-delivery of goods due to force majeure events. However, it does not explicitly restrict a party from contesting the validity of the counterparty's ownership of intellectual property or bringing a claim against the counterparty for matters unrelated to the contract.\n\n3. **Dispute Resolution Clause (Clause 19)**: This clause provides that all disputes related to the contract or its execution shall be settled through arbitration. While this clause does not explicitly restrict a party from contesting the validity of the counterparty's ownership of intellectual property or bringing a claim against the counterparty for matters unrelated to the contract, it does provide a mechanism for resolving disputes.\n\n4. **Confidentiality Clause (Clause 20)**: This clause provides that the final price of the contract is confidential information and shall not be disseminated, distributed, or duplicated. However, this clause does not explicitly restrict a party from contesting the validity of the counterparty's ownership of intellectual property or bringing a claim against the counterparty for matters unrelated to the contract.\n\nTo determine whether a party is restricted from contesting the validity of the counterparty's ownership of intellectual property or bringing a claim against the counterparty for matters unrelated to the contract, a lawyer should review the contract in its entirety and consider the following:\n\n* Are there any explicit provisions that restrict a party from contesting the validity of the counterparty's ownership of intellectual property or bringing a claim against the counterparty for matters unrelated to the contract?\n* Are there any provisions that provide for the resolution of disputes through arbitration or other mechanisms that may limit a party's ability to bring claims against the counterparty?\n* Are there any provisions that provide for the confidentiality of certain information, such as the final price of the contract, that may be relevant",
+      "is_impossible": true,
+      "time_taken": 30.335615873336792,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Third Party Beneficiary",
+      "question": "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "Based on the contract text provided, there are a few parts that may be related to \"Third Party Beneficiary\" and should be reviewed by a lawyer:\n\n1. Clause 2.1: This clause mentions that the buyer entrusts SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\" or \"LEHEYUAN\") to purchase the products specified in this agreement from the seller in the form of orders. This suggests that the entrusted party may have some rights or obligations under the contract, but it is not explicitly stated.\n\n2. Clause 2.4: This clause states that the seller's note is only valid if it is issued to the buyer's entrusted party. This implies that the entrusted party may have some rights or obligations under the contract, but it is not explicitly stated.\n\n3. Clause 12.1 and 12.2: These clauses specify the documents that the seller must provide to the buyer, including the buyer's agent. This suggests that the buyer's agent may have some rights or obligations under the contract, but it is not explicitly stated.\n\n4. Clause 16: This clause mentions that the buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation. This suggests that the China Commodity Inspection Bureau may have some rights or obligations under the contract, but it is not explicitly stated.\n\nHowever, it is worth noting that none of these clauses explicitly state that a non-contracting party is a beneficiary to some or all of the clauses in the contract. Therefore, a lawyer should review these clauses to determine whether they imply any third-party beneficiary rights or obligations.\n\nIn particular, a lawyer should consider the following questions:\n\n* Are the entrusted party, the buyer's agent, or the China Commodity Inspection Bureau intended to be beneficiaries of any of the clauses in the contract?\n* Do any of the clauses in the contract create rights or obligations that can be enforced by a non-contracting party?\n* Are there any ambiguities or uncertainties in the contract that could be interpreted as creating third-party beneficiary rights or obligations?\n\nA lawyer should carefully review the contract and provide guidance on whether any non-contracting parties are beneficiaries of the contract and whether they can enforce",
+      "is_impossible": true,
+      "time_taken": 31.23595380783081,
+      "eval_outcome": "TN"
+    }
+  ]
+}

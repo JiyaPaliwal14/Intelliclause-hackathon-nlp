@@ -1,0 +1,504 @@
+{
+  "final_metrics": {
+    "accuracy": 0.6341463414634146,
+    "precision": 0.23529411764705882,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.3478260869565218,
+    "average_inference_time_seconds": 9.531865282756526
+  },
+  "detailed_results": [
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Document Name",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "true_answers": [
+        "SUPPLY CONTRACT"
+      ],
+      "predicted_answer": "The contract name is \"SUPPLY CONTRACT\".  This is found in the first line of the document:\n\n\"Exhibit 10.16 SUPPLY CONTRACT\" \n\n\nLet me know if you have any other questions about this contract.",
+      "is_impossible": false,
+      "time_taken": 0.6236569881439209,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Parties",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "true_answers": [
+        "The seller:",
+        "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd."
+      ],
+      "predicted_answer": "Here are the sections of the contract related to the parties that a lawyer should review:\n\n* **1. General Provisions 1.2:** This section addresses what happens when the order terms conflict with the agreement terms. A lawyer should ensure this clause is clear and protects the buyer's interests.\n* **2. The Agreement and Order 2.1:** This section identifies the \"entrusted party\" (YICHANGTAI or LEHEYUAN) who will handle purchasing on behalf of the buyer. A lawyer should confirm the buyer's understanding of this arrangement and its implications.\n* **2. The Agreement and Order 2.2:** This section outlines the seller's confirmation process for orders. A lawyer should review the timeframes and consequences of non-confirmation to ensure they are reasonable and enforceable.\n* **2. The Agreement and Order 2.3:** This section deals with amendments to orders. A lawyer should ensure the process for accepting modifications is clear and protects the buyer from unwanted changes.\n* **2. The Agreement and Order 2.4:** This section states that only orders issued through the entrusted party are binding. A lawyer should confirm the buyer's understanding of this limitation and its potential impact on their purchasing process.\n* **13. Shipment:** This section defines the seller's responsibilities for shipping and risk transfer. A lawyer should review the chosen Incoterms (INCOTERMS 2000) to understand the allocation of costs and liabilities.\n* **23. Contract Validity:** This section specifies the contract's duration. A lawyer should ensure the term is acceptable to the buyer and consider any renewal or termination provisions.\n\n\nA lawyer should also carefully review the entire contract to ensure it is legally sound, fair, and protects the buyer's interests.",
+      "is_impossible": false,
+      "time_taken": 1.086266040802002,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Agreement Date",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract states: \"The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong.\" \n\nA lawyer should review the blank space where the \"Agreement Date\" should be filled in.",
+      "is_impossible": true,
+      "time_taken": 0.46185898780822754,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Effective Date",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The following parts of the contract relate to the effective date and should be reviewed by a lawyer:\n\n* **\"This Contract is made out in three originals in both Chinese and English, each language being legally of the equal effect. Conflicts between these two languages arising there from, if any, shall be subject to Chinese version.\"**  This clause highlights the importance of the Chinese version in case of discrepancies. A lawyer should ensure the Chinese version accurately reflects the intended effective date.\n* **\"The Contract becomes effective after signed by both parties.\"** This clause states the general rule for effectiveness. A lawyer should confirm that this clause aligns with any specific requirements or conditions for effectiveness outlined elsewhere in the contract.\n* **\"This Contract is valid for 5 years, beginning from and ended on .\"**  The lawyer should review the bracketed spaces to confirm the accurate start and end dates of the contract's validity. \n\n\nA lawyer should carefully review these sections to ensure the contract clearly and accurately establishes the effective date and avoid any potential ambiguities or disputes.",
+      "is_impossible": true,
+      "time_taken": 0.7988290786743164,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Expiration Date",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "true_answers": [
+        "The Contract is valid for 5 years, beginning from and ended on ."
+      ],
+      "predicted_answer": "The contract states: \"This Contract is valid for 5 years, beginning from  and ended on  .\" \n\nA lawyer should review the blanks spaces to determine the specific start and end dates of the contract's initial term.",
+      "is_impossible": false,
+      "time_taken": 0.489793062210083,
+      "eval_outcome": "FN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Renewal Term",
+      "question": "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 5.613633871078491,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Notice Period To Terminate Renewal",
+      "question": "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The provided contract text does not specify a \"Notice Period To Terminate Renewal\".",
+      "is_impossible": true,
+      "time_taken": 10.547116994857788,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Governing Law",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "true_answers": [
+        "It will be governed by the law of the People's Republic of China ,otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods."
+      ],
+      "predicted_answer": "The contract states in clause 21: \"It will be governed by the law of the People's Republic of China ,otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods.\" \n\nA lawyer should review this clause to understand:\n\n* **Which law applies:**  Does the contract primarily fall under Chinese law or the UN Convention?  The \"otherwise\" clause suggests a hierarchy, but it's important to clarify the specific circumstances that would trigger the application of the UN Convention.\n* **Potential conflicts:**  There could be conflicts between Chinese law and the UN Convention. A lawyer needs to analyze these potential conflicts and advise on how they might be resolved.\n\n\nThe contract also mentions \"Incoterms 2000\" in clause 22. While not strictly \"governing law,\" a lawyer should review this as well to understand the implications for shipping, delivery, and risk allocation.",
+      "is_impossible": false,
+      "time_taken": 10.955695152282715,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Most Favored Nation",
+      "question": "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.650593996047974,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Compete",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector? ",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.550296068191528,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Exclusivity",
+      "question": "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\n\nThe provided contract text does not mention anything about exclusivity in terms of dealing, procurement, licensing, selling, collaborating, or working with other parties.",
+      "is_impossible": true,
+      "time_taken": 11.663790225982666,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__No-Solicit Of Customers",
+      "question": "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.544665098190308,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Competitive Restriction Exception",
+      "question": "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\n\nThe provided contract focuses on standard commercial terms like payment, delivery, quality assurance, and dispute resolution. It doesn't contain clauses specifically addressing \"Competitive Restriction Exceptions\" such as non-compete, exclusivity, or no-solicit provisions.",
+      "is_impossible": true,
+      "time_taken": 10.653512954711914,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__No-Solicit Of Employees",
+      "question": "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.561145067214966,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Disparagement",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract does not contain any explicit clauses related to non-disparagement.  \n\nTherefore, a lawyer would need to review the contract for any implied restrictions on making negative statements about the other party.",
+      "is_impossible": true,
+      "time_taken": 10.73150086402893,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Termination For Convenience",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract does not explicitly mention \"Termination for Convenience\".  \n\nA lawyer would need to review the contract to determine:\n\n* **If there are any clauses that implicitly allow for termination without cause.**  Look for provisions related to early termination, notice periods, or conditions under which a party can withdraw from the agreement.\n* **Whether the contract's general principles of contract law in China or the UN Convention on Contracts for the International Sale of Goods (CISG) allow for termination for convenience.**  These legal frameworks may provide grounds for termination even without a specific clause. \n\n\nSince the contract doesn't directly address termination for convenience, a lawyer's review is essential to understand the parties' rights and obligations in this regard.",
+      "is_impossible": true,
+      "time_taken": 10.861776113510132,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Rofr/Rofo/Rofn",
+      "question": "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.641760110855103,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Change Of Control",
+      "question": "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "This contract does not explicitly address \"Change of Control\" events.  \n\nA lawyer would want to review the contract for:\n\n* **Assignment Clauses:**  Look for provisions that govern the assignment of rights and obligations under the contract. Some contracts prohibit assignment without consent, while others allow it with notice.\n* **Successor Liability:**  Examine if the contract addresses the liability of a successor entity in the event of a merger, acquisition, or other change of control. \n* **Termination Clauses:** Review termination provisions to see if any apply to changes in control. \n\nWithout specific language addressing \"Change of Control,\" a lawyer would need to analyze the existing clauses to determine the legal implications of such an event.",
+      "is_impossible": true,
+      "time_taken": 10.854650735855103,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Anti-Assignment",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "This contract does not contain any explicit clauses regarding anti-assignment.  \n\nTherefore, a lawyer would need to review the contract's general provisions and determine if any language implicitly restricts assignment.  They would also consider applicable laws in the relevant jurisdiction to understand the default rules on assignment in the absence of specific contractual provisions.",
+      "is_impossible": true,
+      "time_taken": 11.672431707382202,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Revenue/Profit Sharing",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.56824278831482,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Price Restrictions",
+      "question": "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The part of the contract that should be reviewed by a lawyer regarding price restrictions is:\n\n**\"20. This final price is the confidential information. Dissemination, distribution or duplication of this price is strictly prohibited.\"**\n\nThis clause suggests that the price agreed upon is confidential and cannot be shared with third parties.  \n\nHere's why a lawyer should review it:\n\n* **Ambiguity:** It's unclear if this clause prevents either party from *changing* the price in the future, or only from disclosing it to others. \n* **Potential for Disputes:**  This clause could lead to disputes if one party wants to adjust the price and the other party claims it violates the confidentiality agreement.\n* **Market Considerations:**  A lawyer would want to ensure that the price restriction doesn't prevent the parties from adapting to market changes or engaging in competitive pricing.\n\n\nA lawyer can clarify the intended meaning of this clause and advise on whether it is enforceable and potentially problematic in the long term.",
+      "is_impossible": true,
+      "time_taken": 10.941519021987915,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Minimum Commitment",
+      "question": "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.544424057006836,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Volume Restriction",
+      "question": "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.647818088531494,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Ip Ownership Assignment",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\nThe provided contract text does not contain any clauses related to intellectual property ownership assignment.  A lawyer would need to review this aspect to ensure the client's intellectual property rights are protected.",
+      "is_impossible": true,
+      "time_taken": 10.64738392829895,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Joint Ip Ownership",
+      "question": "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.579648971557617,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__License Grant",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The provided contract text does not contain any provisions related to a \"License Grant\".",
+      "is_impossible": true,
+      "time_taken": 10.5523681640625,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Transferable License",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The provided contract text does not contain any clauses explicitly mentioning \"Non-Transferable License\" or limiting the ability of a party to transfer a license to a third party. \n\n\nTherefore, I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.611724853515625,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Affiliate License-Licensor",
+      "question": "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor? ",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\nThe contract does not mention anything about \"Affiliate License-Licensor\" or any license grants by affiliates of the licensor.",
+      "is_impossible": true,
+      "time_taken": 11.571027994155884,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Affiliate License-Licensee",
+      "question": "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The provided contract text does not mention \"Affiliate License-Licensee\" or any provisions related to granting licenses to licensees or their affiliates. \n\n\nTherefore, I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.685631036758423,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Unlimited/All-You-Can-Eat-License",
+      "question": "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\nThe contract focuses on the terms of a supply agreement for goods, covering aspects like order placement, payment, shipping, quality guarantees, and dispute resolution. There are no clauses mentioning \"unlimited/all-you-can-eat license\" or similar terms granting unrestricted usage rights.",
+      "is_impossible": true,
+      "time_taken": 10.833599090576172,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Irrevocable Or Perpetual License",
+      "question": "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The provided contract text does not contain any provisions related to \"Irrevocable Or Perpetual License\".",
+      "is_impossible": true,
+      "time_taken": 10.638452053070068,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Source Code Escrow",
+      "question": "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\nThe contract does not mention anything about source code escrow.",
+      "is_impossible": true,
+      "time_taken": 10.57319188117981,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Post-Termination Services",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "This contract does not explicitly mention \"Post-Termination Services\" or detail obligations after the contract's termination. \n\nA lawyer should review the following sections to assess potential post-termination obligations:\n\n* **Clause 23 (Contract Validity):**  The contract is valid for 5 years.  It's important to understand what happens after the 5-year period. Does the contract automatically renew? Are there provisions for early termination?\n* **Clause 19 (Arbitration):** This clause outlines dispute resolution. It's important to understand if disputes arising after termination would fall under this clause.\n* **General Provisions:**  Review the general provisions (Clause 1) for any language that might imply ongoing obligations or address the termination process.\n\n\nWhile the contract doesn't explicitly address post-termination services, a lawyer should carefully analyze these sections to ensure the client understands their rights and obligations after the contract expires.",
+      "is_impossible": true,
+      "time_taken": 10.926082134246826,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Audit Rights",
+      "question": "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": true,
+      "time_taken": 10.647673845291138,
+      "eval_outcome": "FP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Uncapped Liability",
+      "question": "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract mentions several clauses that could potentially relate to uncapped liability, and require review by a lawyer:\n\n* **Clause 5 (PACKING):**  States the seller is liable for \"any damage and loss of the commodity, expenses incurred on account of improper packing, and any damage attributable to inadequate or improper protective measures taken by the seller in regard to the packing.\" This suggests potential unlimited liability for damage caused by inadequate packing.\n* **Clause 16 (CLAIMS):**  Outlines the buyer's right to claim for replacement or compensation for non-conforming goods. It also states that \"all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers.\" This could potentially lead to significant expenses for the seller in case of widespread defects.\n* **Clause 18 (LATE DELIVERY AND PENALTY):** While it specifies a penalty for late delivery, it doesn't explicitly cap the seller's liability beyond that penalty. \n\n**Important Considerations:**\n\n* **Interpretation:**  The contract language regarding liability needs careful interpretation.  A lawyer can determine if these clauses truly create uncapped liability or if there are limitations or conditions not immediately apparent.\n* **Governing Law:** The contract states it is governed by Chinese law and the UN Convention on Contracts for the International Sale of Goods.  A lawyer familiar with these legal frameworks can provide specific guidance on liability implications.\n* **Negotiation:**  If uncapped liability is a concern, a lawyer can advise on negotiating more favorable terms with the other party.\n\n\nIt's crucial for both parties to have legal counsel review this contract to fully understand the potential liability implications.",
+      "is_impossible": true,
+      "time_taken": 11.153694868087769,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Cap On Liability",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract mentions a few provisions that could be relevant to \"Cap On Liability\" and should be reviewed by a lawyer:\n\n* **Clause 16. Claims:** This clause outlines the process for handling claims related to quality, specification, or quantity discrepancies.  \n    *  It states that the buyer has 7 days after arrival to make a claim. This sets a **time limitation** for bringing claims.\n    *  It also states that the seller is responsible for the \"immediate elimination of the defect(s), complete or partial replacement of the commodity or shall devaluate the commodity according to the state of defect(s).\" This suggests a potential **limitation on recovery** to the cost of repair, replacement, or devaluation. \n* **Clause 18. Late Delivery and Penalty:** This clause addresses penalties for late delivery. \n    * It specifies a **maximum penalty** of 5% of the total value of the goods involved in the late delivery. This acts as a **cap on liability** for the seller in case of late delivery.\n\n**Important Note:**  A lawyer should carefully review these clauses in their entirety and in the context of the entire contract to determine the precise extent of any liability caps and time limitations.",
+      "is_impossible": true,
+      "time_taken": 12.004364013671875,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Liquidated Damages",
+      "question": "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract mentions a penalty for late delivery in **Clause 18**.  \n\nHere's the relevant excerpt:\n\n* **\"Should the Sellers fail to make delivery on time as stipulated in the Contract, with exception of Force Majeure causes specified in Clause 17 of this Contract, the Buyers shall agree to postpone the delivery on condition that the Sellers agree to pay a penalty which shall be deducted by the paying bank from the payment. The penalty, however, shall not exceed 5% of the total value of the goods involved in the late delivery. The rate of penalty is charged at 0.5% for every seven days, odd days less than seven days should be counted as seven days.\"**\n\nThis clause outlines a penalty for late delivery, which could be considered a form of liquidated damages.  \n\n**A lawyer should review this clause to:**\n\n* **Determine if the penalty is reasonable:**  Courts may scrutinize liquidated damages clauses to ensure they are not excessive or punitive.\n* **Understand the calculation method:** The clause specifies a percentage-based penalty with a daily rate. A lawyer can ensure this method is clear and enforceable.\n* **Analyze the scope of the clause:** The clause mentions exceptions for Force Majeure events. A lawyer should review the definition of Force Majeure in the contract to understand its applicability.\n* **Consider the overall contract terms:** The lawyer should assess how this liquidated damages clause interacts with other provisions in the contract, such as termination clauses.\n\n\n\nThe contract does not explicitly mention a termination fee.",
+      "is_impossible": true,
+      "time_taken": 12.175584077835083,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Warranty Duration",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "true_answers": [
+        "Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers."
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract.",
+      "is_impossible": false,
+      "time_taken": 10.545289278030396,
+      "eval_outcome": "FN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Insurance",
+      "question": "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty?",
+      "true_answers": [
+        "To be covered by the Seller for 110% invoice value against All Risks and War Risk."
+      ],
+      "predicted_answer": "Yes, there are insurance requirements in this contract. \n\nHere's the relevant section:\n\n**10. INSURANCE:** To be covered by the Seller for 110% invoice value against All Risks and War Risk. \n\n**Key Points for a Lawyer to Review:**\n\n* **Coverage:** \"All Risks and War Risk\" is a broad coverage type. A lawyer should confirm this is sufficient for the specific goods and potential risks involved in the shipment.\n* **110% Invoice Value:** This is a high coverage amount. A lawyer should assess if this is standard practice and if it aligns with industry norms or the buyer's risk tolerance.\n* **Seller's Responsibility:** The contract clearly states the seller is responsible for obtaining this insurance. A lawyer should review the contract to ensure the seller has the necessary mechanisms to ensure the insurance is in place and maintained throughout the shipment.\n* **Policy Provisions:**  While the contract mentions the coverage, it doesn't specify the insurer, policy details, or any specific exclusions. A lawyer would need to review the actual insurance policy to ensure it meets the contract's requirements.\n* **Claims Process:** The contract should outline the process for filing insurance claims in case of loss or damage. A lawyer should review this to ensure it is clear, fair, and protects the buyer's interests. \n\n\n\nLet me know if you have any other questions.",
+      "is_impossible": false,
+      "time_taken": 11.137624263763428,
+      "eval_outcome": "TP"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Covenant Not To Sue",
+      "question": "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "I couldn't find the answer in the contract. \n\nThe provided contract focuses primarily on the terms of the sale, delivery, payment, and dispute resolution. It doesn't contain explicit clauses addressing a \"Covenant Not To Sue\" or restrictions on parties bringing claims unrelated to the contract, such as intellectual property disputes. \n\n\nA lawyer would need to review the contract carefully to determine if any implied provisions or language could be interpreted as limiting a party's ability to sue outside the scope of the contract.",
+      "is_impossible": true,
+      "time_taken": 11.712013006210327,
+      "eval_outcome": "TN"
+    },
+    {
+      "context_title": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+      "question_id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Third Party Beneficiary",
+      "question": "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party?",
+      "true_answers": [
+        "NO_ANSWER"
+      ],
+      "predicted_answer": "The contract mentions \"entrusted party\" which refers to SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD.  \n\nWhile they are not directly named as \"third-party beneficiaries,\" their role in the contract suggests they may have some rights and protections. \n\nHere's why a lawyer should review this:\n\n* **Order Issuance:** The entrusted parties are responsible for issuing orders to the seller. This implies they have a level of control over the contract's execution.\n* **Acceptance and Modification:** The seller interacts with the entrusted parties to confirm, modify, or reject orders. This suggests the entrusted parties have a stake in the outcome of these interactions.\n* **Payment:** The contract mentions the buyer's agent (presumably the entrusted party) agreeing to pay for goods. This indicates a financial obligation tied to their actions.\n\n**Key Points for Legal Review:**\n\n* **Nature of the Entrusted Party's Role:**  Is their role purely administrative, or do they have a contractual interest in the goods or the outcome of the transaction?\n* **Enforceability of Rights:** Can the entrusted parties enforce the contract's terms against the seller, even though they are not direct signatories?\n* **Liability:**  Are the entrusted parties liable to the buyer for any breaches or issues arising from their actions under the contract?\n\n\nA lawyer can analyze the contract language and relevant legal principles to determine the extent of the entrusted parties' rights and obligations.",
+      "is_impossible": true,
+      "time_taken": 11.146146059036255,
+      "eval_outcome": "TN"
+    }
+  ]
+}
